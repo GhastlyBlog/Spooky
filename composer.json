@@ -1,0 +1,9 @@
+{
+    "name" : "ghastly/spooky",
+    "description" : "A theme for Ghastly that kind of reminds you of another blogging platform",
+    "type" : "ghastly-theme",
+    "license" : "UNLICENSE",
+    "require" : {
+        "ghastly/theme-installer" : "@dev"
+    }
+}
