@@ -11,14 +11,14 @@
             <article class="post">
                 <header> 
                     <h4>
-                        {{ post.metadata.date }}
+                        {{ post.date }}
 
-                        {% if post.metadata.tags %}
-                        <span> on {{ post.metadata.tags }}</span>
+                        {% if post.tags %}
+                            <span> on {{ post.tags | join(',') }}</span>
                         {% endif %}
                     </h4>
 
-                    <h3>{{ post.metadata.title }}</h3>
+                    <h3>{{ post.title }}</h3>
                 </header> 
 
                 {{ post.content }}
