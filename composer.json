@@ -5,6 +5,6 @@
     "license" : "UNLICENSE",
     "require" : {
         "ghastly/theme-installer" : "@dev",
-        "ghastly/archive" : "dev-master@dev",
+        "ghastly/archive" : "dev-master@dev"
     }
 }
