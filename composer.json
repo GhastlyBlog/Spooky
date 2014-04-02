@@ -4,6 +4,7 @@
     "type" : "ghastly-theme",
     "license" : "UNLICENSE",
     "require" : {
-        "ghastly/theme-installer" : "@dev"
+        "ghastly/theme-installer" : "@dev",
+        "ghastly/archive" : "dev-master@dev",
     }
 }
