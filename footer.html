@@ -4,5 +4,8 @@
         {% if archives_url %}
             | <a href="{{ blog_url }}/{{ archives_url }}">Archives</a>
         {% endif %}
+        {% if rss_url %}
+        	| <a href="{{ blog_url }}/{{ rss_url }}">RSS</a>
+        {% endif %}
     </p>
 </footer>
